@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes'
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'AFNetworking', '~> 3.0.3'
+  s.dependency 'AFNetworking', '~> 2.6.3'
   s.dependency 'SSKeychain'
 end
